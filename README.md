@@ -2,3 +2,4 @@
 Curso angular 12 loyal 
 ##clase1
 ## cambio creamos tama feature/clase1
+# Ahora otro comentario
