@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<HTML lang="en">
+
+<head>
+    <meta charset="UTF-">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <li>
+                    <a href="#formularios">formularios</a>
+                </li>
+            </nav>
+        </header>
+        <section>
+            <h2>
+                Formularios
+            </h2>
+            <fieldset>
+                <legend></legend>
+                <form action="endpoint.html" method="get">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" required>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" required>
+                    <label for="edad">Rango Edad</label>
+                    <input type="number" step="5" min="1" max="15">
+                    <label for="equipo">Equipo</label>
+                    <select required>
+                    <option value="0"></option>
+                    <option value="1">Arg</option>
+                    <option value="2">Bra</option>
+                    <option value="3">Esp</option>
+                </select>
+                    <label for="turno">Turno</label>
+                    <br> Mañana: <input type="checkbox" value="1" name="Manana">
+                    <br> Noche: <input type="checkbox" value="2" name="Noche">
+                    <hr>
+                    <label for="river">Es de river</label>
+                    <input type="radio" value="3" name="esDeRiver">
+                    <input type="radio" value="4" name="esDeRiver">
+
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+
+    </footer>
+</body>
+
+</HTML>
